@@ -1,0 +1,62 @@
+body {
+	height: 1800px;
+	padding-top: 16px;
+}
+li {
+	display: inline-block;
+}
+.header-wraper {
+	background-color: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+.wraper {
+	height: 600px;
+	width: 600px;
+	background-color: green;
+	position: relative;
+}
+.box:nth-child(1) {
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	z-index: 2;
+}
+.box:nth-child(2){
+	background-color: pink;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	z-index: 3;
+
+}
+.image-wraper {
+	position: relative;
+	width: 323px;
+}
+
+.text-absolute {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	color: #fff;
+	font-size: 25px;
+
+
+}
+/*gacentvra*/
+.icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 80px;
+}
